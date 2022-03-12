@@ -50,12 +50,3 @@ def rowHill(grid):
             for i in range(0,(grid[j].index(max(grid[j]))-1)):   
                     while ((grid[j][i]) > (grid[j][i+1])):
                               grid[j][i+1] = (grid[j][i+1] + 1)      
-
-        
-grid = [[5, 6, 1, 2, 6], 
-        [1, 5, 1, 6, 3], 
-        [1, 2, 2, 4, 1], 
-        [1, 4, 1, 2, 3], 
-        [4, 5, 3, 6, 1], ]
-
-solve(grid)
